@@ -1,0 +1,284 @@
+/* Так можно вставить комментарий */
+
+* {
+	margin: 0px; 
+	padding: 0px;
+}
+body {
+	font-size: 11px;
+	font-family: Tahoma;
+	width: 100%;
+	min-width: 925px;
+}
+
+a {
+	color:white;
+}
+
+ul {
+	list-style-type: none
+	}
+
+#header {
+	background: url(sklad/header_bg.jpg) repeat-x;
+	width: 100%;
+	height: 103px;
+}
+
+#logo {
+	margin: 19px 0 0 28px;
+}
+
+
+#header a {
+	text-decoration: none;
+}
+
+#header ul {
+	background: url(sklad/icons_bg.gif) no-repeat;
+	width: 201px;
+	height: 37px;
+	float: right;
+	margin: 43px 30px 0 0;
+}
+
+#header li {
+	float: left;
+	margin-top:13px;
+}
+
+#site-map {
+	background: url(sklad/search.gif) no-repeat;
+	margin-left:40px;
+	margin-right:20px;
+	padding-left:16px
+}
+
+#home {
+	background: url(sklad/home.gif) no-repeat;
+	padding-left: 16px;
+}
+
+#slogan {
+	background: url(sklad/slogan_bg.jpg) repeat-x;
+	height: 196px;
+	position:relative;
+}
+
+#slogan h1 {
+	position:absolute;
+	font-family:italic;
+	display:inline-block;
+	color:white;
+	top:50px;
+}
+
+#nav {
+	background: url(sklad/nav_bg.jpg) repeat-x;
+	height: 34px;
+}
+
+#nav li {
+	float: left;
+	background: url(sklad/separator.gif) no-repeat;
+	vertical-align: bottom;
+	height: 34px;
+}
+
+.button {
+	float: left;
+	margin: 13px 22px 0 22px;
+}
+
+#computer {
+	width: 200px;
+	height: 130px;
+	float: left;
+	margin-right: 15px;
+}
+
+#pointer {
+	float: left;
+	margin: 18px 10px 12px 0;
+	height: 30px;
+	width: 30px;
+}
+#welcom {
+	background: url(sklad/welcome_bg.jpg) repeat-x;
+	height: 140px;
+	width: 100%;
+}
+
+#welcom p {
+	text-align: justify;
+	margin-right: 380px;
+}
+
+#welcome-to {
+	font-size: 14px;
+	color: #ef6d00;
+	padding-top: 18px;
+}
+
+#our-hi-fi {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ef6d00;
+	margin-bottom: 12px;
+}
+
+#sign-in {
+	float: right;
+	padding: 20px;
+	color: #ef6d00;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none ;
+}
+
+#welcom a:hover { color: black; }
+
+#head_news {
+	background:url(sklad/product_bg.jpg) repeat-x;
+	height:33px;
+}
+
+#product {
+	float: right;
+}
+
+#news {
+	background:url(sklad/news_bg.jpg) repeat-y;
+	width:203px;
+	float:left;
+	height:400px;
+}
+
+
+#news p{
+	color: white;
+	padding:10px 15px 10px 10px;
+	font-weight:bold;
+	text-indent:10px;
+}
+
+#news a{
+	text-decoration:none;
+	font-weight:bold;
+	padding:15px 0 0 10px;
+}
+
+#news a:hover {
+	text-decoration:underline;
+}
+
+.news_li {
+	margin: 15px 0 15px 10px;
+}
+
+#wrapper {
+	/*WRAPPER ПОСТАВИТЬ ВЫСОТУ*/
+	
+}
+
+#content {
+	margin-left:203px;
+	height:400px;
+}
+
+#text1 {
+	width:50%;
+	height:100%;
+	float:left;
+}
+
+#text1 p {
+	margin: 15px;
+	text-indent:10px;
+}
+
+#text1 h2 {
+	padding:5px 0 0 10px ;
+}
+
+#kpk_big {
+	padding: 0 0 15px 15px;
+}
+
+#text2_wrap {
+	width:50%;
+	float:right;
+}
+
+#text2 {
+	margin-top:20px;
+	border-left: 3px dotted #999;
+	height:360px;
+}
+
+#text2 h3 {
+	color:#d44409;
+	padding:0px 0 0 150px;
+}
+
+#text2 p {
+	color:#0e4e7e;
+	font-weight:bold;
+	padding:15px 0 0 150px;
+}
+
+#text2 a {
+	color:#0e4e7e;
+	text-decoration:none;
+}
+
+
+.img_kpk {
+	float:left;
+	clear:left;
+	margin:0px 0 15px 25px;
+}
+.img_t2 {
+	float:left;
+	clear:left;
+	margin-left:25px;
+	padding-top:5px;
+}
+
+#text2 li {
+}
+
+.bor {
+	border-top: 3px dotted #999;
+	margin-top:80px;
+	padding-top:20px;
+}
+
+#footer {
+	background:url(sklad/footer_bg.jpg);
+	height:66px;
+}
+
+#footer p {
+	margin: 24px 0 0 33px;
+	float:left;
+}
+
+#footer a {
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+#footer  a:hover {
+	color:#ef6d00;
+}
+
+#footer ul {
+	float:right;
+	margin: 20px 20px 0 0;
+}
+
+#footer li {
+	display:inline;
+	margin:0 19px;
+}
